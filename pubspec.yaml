@@ -1,0 +1,31 @@
+name: student_academic_planner
+description: A full Flutter + Firebase student planner app for tasks, exams, subjects, reminders, and statistics.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
+
+  intl: ^0.20.2
+  flutter_local_notifications: ^19.5.0
+  timezone: ^0.10.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
